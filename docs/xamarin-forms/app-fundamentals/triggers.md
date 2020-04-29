@@ -27,8 +27,7 @@ A simple trigger can be expressed purely in XAML, adding
 ```xaml
 <Entry Placeholder="enter name">
     <Entry.Triggers>
-        <Trigger TargetType="Entry"
-                 Property="IsFocused" Value="True">
+        <Trigger Property="IsFocused" Value="True">
             <Setter Property="BackgroundColor" Value="Yellow" />
             <!-- multiple Setters elements are allowed -->
         </Trigger>
